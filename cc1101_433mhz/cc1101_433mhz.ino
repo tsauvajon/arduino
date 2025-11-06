@@ -19,8 +19,9 @@ void loop()
     TX_buffer[0] = val;
     ELECHOUSE_cc1101.SendData(TX_buffer,size);
 
-    Serial.print("Sent value: ");
-    Serial.println(val);
+    // Serial.print("Sent value: ");
+    // Serial.println(val);
+    delay(1);
 
-    delay(1000); // 1 sec
+    // delay(1000); // 1 sec
 }
